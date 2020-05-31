@@ -1,2 +1,7 @@
 <!--miniprogram/pages/books/books.wxml-->
-<text>miniprogram/pages/books/books.wxml</text>
+<view wx:for="{{booklist}}" wx:key="_id">
+  <image src="{{item.cover_url}}" />
+  <text>{{item.title}}</text>
+  <view>{{item.intro}}</view>
+  <!-- <view>{{item.tags}}</view> -->
+</view>

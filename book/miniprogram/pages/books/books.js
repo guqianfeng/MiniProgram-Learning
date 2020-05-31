@@ -1,18 +1,27 @@
 // miniprogram/pages/books/books.js
+const db = wx.cloud.database()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    booklist: []
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    db.collection('books').get({
+      success: res => {
+        // res.data 包含该记录的数据
+        console.log(res.data)
+        this.setData({
+          booklist: res.data
+        })
+      }
+    })
   },
 
   /**
