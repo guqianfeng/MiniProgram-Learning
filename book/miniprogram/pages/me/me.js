@@ -92,5 +92,20 @@ Page({
         })
       }
     })
+  },
+
+  scanBook () {
+    wx.scanCode({
+      success (res) {
+        let { result: isbn } = res
+        console.log(isbn)
+        if (!isbn) {
+          wx.showToast({
+            title: '无法解析isbn'
+          })
+          return;
+        }
+      }
+    })
   }
 })
