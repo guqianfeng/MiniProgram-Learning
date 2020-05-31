@@ -1,7 +1,7 @@
 <!--miniprogram/pages/books/books.wxml-->
-<view wx:for="{{booklist}}" wx:key="_id">
+<view wx:for="{{booklist}}" wx:key="_id" class="book-info">
   <image src="{{item.cover_url}}" />
-  <text>{{item.title}}</text>
+  <view class="book-title">{{item.title}}</view>
   <view>{{item.intro}}</view>
   <!-- <view>{{item.tags}}</view> -->
 </view>

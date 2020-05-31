@@ -1,1 +1,11 @@
 /* miniprogram/pages/books/books.wxss */
+.book-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-title {
+  margin: 50rpx 0;
+  font-weight: bold;
+}
