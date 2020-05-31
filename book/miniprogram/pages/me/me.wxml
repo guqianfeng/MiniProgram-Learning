@@ -1,0 +1,10 @@
+<!--miniprogram/pages/me/me.wxml-->
+<view wx:if="{{userInfo.openid}}" class="userInfo">
+  <image src="{{userInfo.avatarUrl}}" mode="center"></image>
+  <button type="primary">扫一扫</button>
+  <button type="warn" bindtap="logout">退出</button>
+</view>
+<view wx:else>
+  <image src="/images/user-unlogin.png" mode="center"></image>
+  <button type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+</view>

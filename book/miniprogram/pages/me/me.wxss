@@ -1,0 +1,4 @@
+/* miniprogram/pages/me/me.wxss */
+.userInfo button {
+  margin-top: 50rpx;
+}
