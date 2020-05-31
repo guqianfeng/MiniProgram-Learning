@@ -1,0 +1,7 @@
+<!--miniprogram/pages/demo/demo.wxml-->
+<tab tabs="{{tabs}}" bindchangeTab="changeTab">
+  <view wx:if="{{tabs[0].active}}">0</view>
+  <view wx:if="{{tabs[1].active}}">1</view>
+  <view wx:if="{{tabs[2].active}}">2</view>
+  <view wx:if="{{tabs[3].active}}">3</view>
+</tab>
