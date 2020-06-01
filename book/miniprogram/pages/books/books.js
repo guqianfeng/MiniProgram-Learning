@@ -9,10 +9,7 @@ Page({
     booklist: []
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+  getBookList () {
     db.collection('books').orderBy('create_time', 'desc').get({
       success: res => {
         // res.data 包含该记录的数据
@@ -22,6 +19,14 @@ Page({
         })
       }
     })
+    wx.stopPullDownRefresh()
+  },
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    this.getBookList()
   },
 
   /**
@@ -35,7 +40,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**
@@ -56,7 +61,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    this.getBookList()
   },
 
   /**
