@@ -31,5 +31,9 @@
 }
 ```
 
+## 压缩图片文件
+
+* [tinypng](https://tinypng.com/)
+
 ## 实战项目
 * [接口文档](https://www.showdoc.cc/128719739414963?page_id=2513235043485226)
