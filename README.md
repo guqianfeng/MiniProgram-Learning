@@ -30,6 +30,8 @@
     }
 }
 ```
+* 安装CSS Tree
+* 选中页面, Ctrl+Shift+P, 选中generate css tree, 就可以生成 
 
 ## 压缩图片文件
 
