@@ -41,6 +41,11 @@
 
 * [手机屏幕尺寸](https://uiiiuiii.com/screen/)
 
+## 内容安全接口
+
+* [官方文档](https://developers.weixin.qq.com/doc/oplatform/Third-party_Platforms/Mini_Programs/Content_Security_API.html)
+* [例子参考](https://zhuanlan.zhihu.com/p/121613584)
+
 ## 实战项目
 * [接口文档](https://www.showdoc.cc/128719739414963?page_id=2513235043485226)
 
