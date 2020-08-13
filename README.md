@@ -51,3 +51,8 @@
 
 ## 适配的相关问题
 * [微信小程序自定义navigationBar顶部导航栏，兼容适配所有机型（附完整案例）](https://www.jianshu.com/p/b7d92192d97b)
+
+## taro踩坑建议
+
+* 根据官方文档快速开始，注意如果安装依赖sass相关报错，可以先执行`npm install -g mirror-config-china`
+* 开发者工具不显示云开发按钮，可以更新工具版本，其次注意appId要用真实的不能用测试的，还要注意要用小程序的appid，如果用小游戏也是会有问题的
