@@ -37,9 +37,10 @@
 
 * [tinypng](https://tinypng.com/)
 
-## 手机屏幕尺寸
+## 手机屏幕尺寸&&设计稿规范
 
 * [手机屏幕尺寸](https://uiiiuiii.com/screen/)
+* [设计稿规范](https://www.25xt.com/appsize)
 
 ## 内容安全接口
 
@@ -50,6 +51,7 @@
 * [接口文档](https://www.showdoc.cc/128719739414963?page_id=2513235043485226)
 
 ## 适配的相关问题
+* 标准规范iphone6尺寸750 * 1334，状态栏高40，导航栏高88
 * [微信小程序自定义navigationBar顶部导航栏，兼容适配所有机型（附完整案例）](https://www.jianshu.com/p/b7d92192d97b)
 
 ## taro踩坑建议
