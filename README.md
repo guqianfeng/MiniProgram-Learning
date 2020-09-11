@@ -65,6 +65,6 @@
 
 ## 其他
 
-* 分享 - 设置button的open-type属性,然后在函数onShareAppMessage中实现
+* [分享功能](https://www.jianshu.com/p/3e47f000bb64) - 设置button的open-type属性,然后在函数onShareAppMessage中实现
 * [小程序云函数读取阿里云数据库](https://www.jb51.net/article/167160.htm)
 * [云函数登陆功能](https://gitpress.io/@rainy/weixin-authorization)
