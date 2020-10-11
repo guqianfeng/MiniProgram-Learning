@@ -62,6 +62,8 @@
 * 开发者工具不显示云开发按钮，可以更新工具版本，其次注意appId要用真实的不能用测试的，还要注意要用小程序的appid，如果用小游戏也是会有问题的
 * 云开发模板，使用微信开发者工具调试项目，请将项目 整个文件夹 作为运行目录。 注意： 不是 client 中生成的 dist 文件夹
 * 路由跳转获取参数 - @tarojs/taro中解构Current，然后通过`Current.router.params`
+* 安装tao-ui时,如果出现报错，可以尝试安装taro-ui版本，因为目前taro ui2.+和taro3.+版本不兼容,使用以下命令可解决`npm install taro-ui@3.0.0-alpha.3`
+
 
 ## 其他
 
