@@ -63,6 +63,7 @@
 * 云开发模板，使用微信开发者工具调试项目，请将项目 整个文件夹 作为运行目录。 注意： 不是 client 中生成的 dist 文件夹
 * 路由跳转获取参数 - @tarojs/taro中解构Current，然后通过`Current.router.params`
 * 安装tao-ui时,如果出现报错，可以尝试安装taro-ui版本，因为目前taro ui2.+和taro3.+版本不兼容,使用以下命令可解决`npm install taro-ui@3.0.0-alpha.3`
+* 下拉刷新最外层不能用scroll-view,否则无法触发，[这里有同款遇到这个坑的兄弟](https://blog.csdn.net/ygy211715/article/details/109032482)
 
 
 ## 其他
