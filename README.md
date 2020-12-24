@@ -73,4 +73,4 @@
 * [云函数登陆功能](https://gitpress.io/@rainy/weixin-authorization)
 * 一开始导航栏标题不显示，通过滚动一定范围后在显示，可以通过API`setNavigationBarTitle`设置
 * `Taro.getSystemInfoSync();`获取手机型号及系统等
-* [支付相关](https://blog.csdn.net/gf771115/article/details/100917779)
+* [支付相关-csdn大佬](https://blog.csdn.net/gf771115/article/details/100917779), [支付相关-掘金大佬](https://juejin.cn/post/6909458628667768839)
